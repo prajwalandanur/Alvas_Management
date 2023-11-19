@@ -147,13 +147,13 @@ class _RegisterPageState extends State<RegisterPage> {
                             width: 50,
                             height: 50,
                             padding: const EdgeInsets.all(5),
-                            decoration: BoxDecoration(
+                decoration: BoxDecoration(
                                 color: Colors.grey[300],
                                 borderRadius: BorderRadius.circular(15),
                                 boxShadow: [
                                   BoxShadow(
                                       color: Colors.grey.shade600,
-                                      offset: const Offset(3, 3),
+                                offset: const Offset(3, 3),
                                       blurRadius: 15,
                                       spreadRadius: 1),
                                   const BoxShadow(
@@ -296,7 +296,7 @@ class _RegisterPageState extends State<RegisterPage> {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (contrxt) =>
+                                          builder: (context) =>
                                               const LoginPage()));
                                 }
                               },

@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                             border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(10),
                             ),
-                            label: const Text(' Password')),
+                            label: const Text('Password')),
                       ),
                     ),
                   ],
